@@ -7,7 +7,7 @@ function [ N , dN_dxi1 , dN_dxi2 ]  =  sub_shape_local ( xi )
 % N:    npt - by - nen
 % dN1:  npt - by - nen
 % dN2:  npt - by - nen
-% nen: num of element per node
+% nen: num of node per element
 
 % N = [ 4-entry shape function at 1st evaluataion point ;
 %       4-entry shape function at 2nd evaluataion point ;
