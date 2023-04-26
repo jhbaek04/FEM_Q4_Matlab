@@ -43,7 +43,7 @@ for idx_elem  =  1 : num_element
     index_K(2:2:end) = 2*global_node_index;
 %     index_K  =  sort ( [2*global_node_index-1 ; 2*global_node_index] );
     
-    % loop over Gauss point
+    % loop over evaluation points
     for idx_eval  =  1 : size(xi,1)
         % shape functions
         N0      =   N_local ( idx_eval , : );
