@@ -1,6 +1,6 @@
 % Q4 FEM for plane-strain Linear Elasticity
 % SE276C/MAE232C, Spring 2023, JS Chen
-% Written by Jon Baek (job011@eng.ucsd.edu, jhbaek04@gmail.com)
+% Written by Jon Baek (job011 at eng.ucsd.edu, jhbaek04 at gmail.com)
 clear; close all
 
 %% set up the model
